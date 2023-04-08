@@ -10,10 +10,6 @@ public class Alfabeto  extends Pictograma{
         this.interpretacion=interpretacion;
 
     }
-
-    public int cantidadLetras() {
-        return 2;
-    }
     
     public String interpretacion() {
         return this.interpretacion;
@@ -22,4 +18,8 @@ public class Alfabeto  extends Pictograma{
     public String toString() {
         return "A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z" ;
     } 
+
+    public int cantidadLetras() {
+        return letras.length;
+    }
 }
